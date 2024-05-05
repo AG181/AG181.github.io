@@ -1,0 +1,39 @@
+body {
+    margin: 5%; 
+    background-color: #faebd0;
+    text-align: justify;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+hr{
+    width: 50%;
+    text-align: center;
+}
+.text{
+    font-weight: 900
+    text-transform: uppercase;/* трансформация текста, позволяет делать большие буквы */
+}
+
+.chapter {
+    color:blueviolet
+}
+#begin {
+    color: rgb(red, green, blue);
+    font-weight: bold;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 250px
+}
+
+nav{
+    position: inherit;
+    left: 0px;
+    top: 50px;
+}
+h1, h2, h3{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
