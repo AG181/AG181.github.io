@@ -1,1 +1,1 @@
-- My pet projects are stored here -
+- My pet projects are stored here
