@@ -1,0 +1,59 @@
+/* селектор {
+    свойство: значение;
+} */
+* /* общий селектор */{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5%; 
+    background-color: #faebd0;
+    text-align: justify;
+}
+
+h1, h2, h3{
+    color: rgba(0, 0, 0, 1);/* цвет */
+    text-align: center;
+    /* font-weight: 900;/* толщина шрифта, Жирный текст */
+    /* font-style: italic;стиль текста, наклон текста */
+    /* text-decoration: underline; /* декорации текста, подчёркнутый */
+    /* text-decoration: line-through; зачёркнутый */
+    font-size: 30px; /* размер шрифта */
+    line-height: 2;/* высота строки */
+}
+
+hr{
+    width: 50%;/* ширина */
+    text-align: center;
+}
+
+    .text{
+        font-weight: 900
+        text-transform: uppercase;/* трансформация текста, позволяет делать большие буквы */
+    }
+
+    .chapter {
+        color:blueviolet
+    }
+    #begin {
+        color: rgb(red, green, blue);
+        font-weight: bold;
+    }
+
+    /* Блочные (div) */
+    /* Строчные (link) */
+    /* Строчно-блочные */
+
+    img {
+        display: block;/* режим отображения, блочный */
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    nav{
+        /* static, relative, absolute, fixed, inherit */
+        position: inherit; /* местоположение */
+        left: 0px; /* отступ слева */
+        top: 50px;/* отступ сверху */
+        /* bottom, top, left, right */
+    }
