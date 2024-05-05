@@ -1,1 +1,1 @@
-- My pet projects are stored here
+- <b><i>My pet-projects are stored here
